@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  billing_address: MyText
+  billing_zip: MyString
+  purchase_email: MyString
+  purchase_phone: MyString
+
+two:
+  user_id: 1
+  billing_address: MyText
+  billing_zip: MyString
+  purchase_email: MyString
+  purchase_phone: MyString
