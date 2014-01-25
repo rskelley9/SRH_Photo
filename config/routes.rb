@@ -10,6 +10,8 @@ SRHPhoto1::Application.routes.draw do
 
   resources :galleries
 
+  get "rssfeed/index"
+
   # resources :photos
 
   # resources :purchasese
