@@ -1,3 +1,27 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+        margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+// change the URL to one of Steve's photos, high quality!
+.business-header {
+        height: 400px;
+        background: url(http://placehold.it/1920x400) center center no-repeat;
+        background-size: cover;
+}
+
+// adjust the color and text shadow to optimize legibility
+// once you have an image set
+//adjust vertical positioning
+
+.tagline {
+        color: #fff;
+        text-shadow: 0 0 10px #000;
+}
+
+footer {
+        margin: 50px 0;
+}
