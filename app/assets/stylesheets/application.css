@@ -9,6 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require bootstrap.min
+ *= require_tree ../../../vendor/assets/stylesheets/
+ *= require ../../../vendor/assets/megafolio/css/settings
+ *= require ../../../vendor/assets/megafolio/fancybox/jquery.fancybox
+  *= require ../../../vendor/assets/layerslider/css/layerslider
  *= require_self
  *= require_tree .
  */
