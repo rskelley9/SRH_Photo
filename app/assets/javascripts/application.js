@@ -14,4 +14,12 @@
 //= require jquery_ujs
 //= require bootstrap.min
 //= require turbolinks
+//= require_directory ../../../vendor/assets/javascripts/
+//= require_tree ../../../vendor/assets/layerslider/js
+//= require_tree ../../../vendor/assets/megafolio/fancybox/helpers
+//= require_tree ../../../vendor/assets/megafolio/js
+//= require ../../../vendor/assets/megafolio/fancybox/jquery.fancybox.pack
+//= require ../../../vendor/assets/megafolio/fancybox/jquery.fancybox
+//= require ../../../vendor/assets/megafolio/fancybox/jquery.mousewheel-3.0.6.pack
+//= require_directory ../../../vendor/assets/layerslider/jQuery
 //= require_tree .

@@ -25,3 +25,51 @@ body {
 footer {
         margin: 50px 0;
 }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.top-nav {
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  padding-right:20px;
+  padding-left:20px;
+  height:40px;
+  background-color:#FFA961;
+  text-align:right;
+}
+
+.top-nav a {
+  position:relative;
+  line-height:40px;
+  text-decoration:none;
+  color:white;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+.top-nav a:hover {
+  color:#5B2900;
+}
+
+.container {
+  margin:40px auto;
+  width:800px;
+  padding:0px 20px 20px 20px;
+  border:1px dotted black;
+  position:relative;
+}
+
+.home-link {
+  float:left;
+  font-size:20px;
+}
+
